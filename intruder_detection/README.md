@@ -115,13 +115,14 @@ project_folder/
 
 🛠️ Installation
 
-bash
 pip install opencv-contrib-python numpy requests
+
 
 
 ▶️ Run
 
 python intr.py
+
 
 Press 's' to stop.
 
@@ -131,7 +132,9 @@ Press 's' to stop.
 Update your Telegram credentials:
 
 bot_token = "YOUR_BOT_TOKEN"
+
 chat_id = "YOUR_CHAT_ID"
+
 
 🔮 Future Improvements
 
@@ -142,7 +145,9 @@ chat_id = "YOUR_CHAT_ID"
 * Deep learning upgrade
 
 👨‍💻 Author
+
    Subrat
+   
 
 ⭐ About
 
