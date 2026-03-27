@@ -1,2 +1,2 @@
 # image-processing-projects
-AI-based surveillance system for human detection and intruder alert using YOLO, OpenCV, and computer vision.
+AI-Based Smart Intruder Detection System for Intruder Detection and Intruder Alert using YOLO, OpenCV, and Computer Vision.
