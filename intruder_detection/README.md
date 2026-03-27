@@ -83,9 +83,14 @@ If the person is not recognized:
 
 📷 Output
 
-![Intruder Detection](authorized image-1.png)
+✅ Authorized User
 
-![Intruder Detection]
+![Authorized User](authorized image-1.png)
+
+📊 CSV Log Output
+![CSV Log](CSV.png)
+
+
 
 📁 Project Structure
 
