@@ -29,8 +29,10 @@ A real-time surveillance system that detects human faces, identifies authorized 
 This repository is created to explore practical implementations of computer vision and AI in real-world scenarios like security systems and robotics.
 
 👨‍💻 Author
+
     Subrat  
+    
     AI & Robotics Enthusiast 🚀
+    
    
-Subrat  
-AI & Robotics Enthusiast 🚀
+
