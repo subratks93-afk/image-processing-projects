@@ -85,7 +85,7 @@ If the person is not recognized:
 
 ✅ Authorized User
 
-![Authorized User](authorized image-1.png)
+![Authorized User](authorized_image_1.png)
 
 📊 CSV Log Output
 ![CSV Log](CSV.png)
