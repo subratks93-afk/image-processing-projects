@@ -45,13 +45,19 @@ Face Recognition (LBPH Model)
 Decision Making
 
    ├── Authorized → No Action
+   
    └── Intruder →
+   
            ↓
+           
       Beep Alarm
       
       Capture Image
+      
       Send Telegram Alert
+      
       Save Log Entry
+      
 
 🔄 How It Works
 
@@ -84,16 +90,27 @@ If the person is not recognized:
 📁 Project Structure
 
 project_folder/
+
 │
+
 ├── intr.py
+
 ├── trainer.yml
+
 ├── labels.pkl
+
 ├── access_log.csv
+
 │
+
 ├── intruder_images/
+
 │
+
 └── dataset/
+
         └── SUBRAT/
+        
 
 
 🛠️ Installation
