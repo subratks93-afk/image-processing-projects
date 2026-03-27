@@ -83,9 +83,9 @@ If the person is not recognized:
 
 📷 Output
 
-![Intruder Detection](intruder_2026-03-23_20-19-10.jpg)
+![Intruder Detection](authorized image-1.png)
 
-
+![Intruder Detection]
 
 📁 Project Structure
 
