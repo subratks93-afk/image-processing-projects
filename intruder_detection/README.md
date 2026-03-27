@@ -34,16 +34,21 @@ If an unknown person is detected, the system captures the image, triggers an ale
 ## 🧩 System Architecture
 
 Webcam Input
+
       ↓
 Face Detection (Haar Cascade)
+
       ↓
 Face Recognition (LBPH Model)
+
       ↓
 Decision Making
+
    ├── Authorized → No Action
    └── Intruder →
            ↓
       Beep Alarm
+      
       Capture Image
       Send Telegram Alert
       Save Log Entry
