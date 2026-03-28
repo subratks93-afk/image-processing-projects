@@ -15,27 +15,45 @@ If an intruder is detected, the system:
 •	Logs the event 📊 
 
 ________________________________________
-🚀 Features
 
-•	Real-time face detection using webcam 
+⭐ Key Highlights
 
-•	Face recognition using trained LBPH model 
+•	Real-time face detection and recognition 
 
-•	Authorized vs Intruder classification 
+•	Intelligent intruder alert system 
 
-•	Automatic intruder image capture 
+•	Telegram integration with image alerts
 
-•	Telegram alert with image 
-
-•	Audio alert (beep system)
-
-•	CSV-based logging system 
-
-•	Confidence averaging for stable predictions 
+•	Stable predictions using confidence averaging 
 
 •	Cooldown mechanism to prevent alert spam 
 
+•	Designed for real-world surveillance applications 
+
 ________________________________________
+
+🚀 Features
+
+•	Detects faces in real-time using webcam 
+
+•	Recognizes authorized users using LBPH model 
+
+•	Identifies unknown persons as intruders 
+
+•	Captures and stores intruder images 
+
+•	Sends Telegram alerts with captured image 
+
+•	Triggers beep sound for local alert 
+
+•	Maintains CSV log of all events 
+
+•	Confidence averaging for stable detection 
+
+•	Cooldown system to avoid repeated alerts 
+
+________________________________________
+
 🧠 Technologies Used
 
 •	Python 
@@ -71,7 +89,6 @@ Face Recognition (LBPH)
 Decision Making
 
    ├── Authorized → No Action
-   
    └── Intruder →
    
            ↓
@@ -85,6 +102,7 @@ Decision Making
      Save Log (CSV)
      
 ________________________________________
+
 🔄 How It Works
 
 1.	Webcam captures live video 
@@ -95,20 +113,49 @@ ________________________________________
 o	Beep alert is triggered 
 o	Image is saved 
 o	Telegram alert is sent 
-o	Event is logged in CSV 
+o	Event is logged in CSV
+
+________________________________________
+
+📷 Output
+
+✅ Authorized User Detection
+
+> System correctly identifies an authorized user.
+
+![Authorized](authorized_image_1.png)
+
+🚨 Intruder Detection
+
+> Unknown person detected and classified as intruder.
+
+
+![Intruder](intruder.png)
+
+📊 CSV Log Output
+
+> All detection events are recorded with timestamp and status.
+
+![CSV Log](CSV.png)
+
+
+📩 Telegram Alert Output
+
 ________________________________________
 
 📂 Data Storage
 
-•	📷 Intruder images → intruder_images/
+•	📷 Intruder images → intruder_images/ 
 
 •	📊 Logs → access_log.csv 
+
 ________________________________________
+
 📁 Project Structure
+
 intruder_system/
 
 │
-
 ├── intr.py
 
 ├── trainer.yml
@@ -118,16 +165,24 @@ intruder_system/
 ├── access_log.csv
 
 │
-
 ├── intruder_images/
 
 │
-
 └── dataset/
 
     └── SUBRAT/
-    
 ________________________________________
+
+📦 Requirements
+
+•	Python 3.10
+
+•	Webcam 
+
+•	Internet connection (for Telegram alerts)  
+
+________________________________________
+
 🛠️ Installation
 
 pip install opencv-contrib-python numpy requests
@@ -152,6 +207,16 @@ chat_id = "YOUR_CHAT_ID"
 
 ________________________________________
 
+⚠️ Challenges Faced
+
+•	Reducing false detections 
+
+•	Stabilizing predictions using confidence averaging 
+
+•	Avoiding alert spam using cooldown mechanism 
+
+________________________________________
+
 🔮 Future Improvements
 
 •	Multi-user face recognition 
@@ -162,7 +227,7 @@ ________________________________________
 
 •	GUI dashboard 
 
-•	Deep learning-based model (YOLO / CNN) 
+•	Deep learning-based upgrade (YOLO / CNN)
 
 ________________________________________
 
