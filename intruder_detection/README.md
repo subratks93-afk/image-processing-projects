@@ -1,47 +1,46 @@
 🛡️ AI-Based Smart Intruder Detection System
-
 📌 Overview
-
-This project is a real-time surveillance system built using Python and OpenCV. It detects a person through a webcam and checks whether they are authorized using face recognition.
-
-If an unknown person is detected, the system captures the image, triggers an alert, sends a Telegram notification, and logs the event.
-
-
+This project is a real-time surveillance system built using Python and OpenCV. It detects human faces through a webcam and identifies whether the person is authorized or an intruder using face recognition.
+If an intruder is detected, the system:
+•	Captures the image 📷 
+•	Triggers an alert 🔊 
+•	Sends a Telegram notification 📩 
+•	Logs the event 📊 
+________________________________________
 🚀 Features
-
-* Detects faces in real-time using a webcam
-* Recognizes authorized users using a trained model
-* Identifies unknown persons as intruders
-* Captures and saves intruder images
-* Sends Telegram alerts along with the captured image
-* Triggers a beep sound when an intruder is detected
-* Maintains a CSV log of all access events
-* Uses confidence averaging for stable predictions
-* Includes a cooldown system to avoid repeated alerts
-
-
+•	Real-time face detection using webcam 
+•	Face recognition using trained LBPH model 
+•	Authorized vs Intruder classification 
+•	Automatic intruder image capture 
+•	Telegram alert with image 
+•	Audio alert (beep system) 
+•	CSV-based logging system 
+•	Confidence averaging for stable predictions 
+•	Cooldown mechanism to prevent alert spam 
+________________________________________
 🧠 Technologies Used
-
-* Python
-* OpenCV (opencv-contrib-python)
-* NumPy
-* LBPH Face Recognition
-* Haar Cascade for face detection
-* Telegram Bot API
-* CSV for logging
-
-
-## 🧩 System Architecture
+•	Python 
+•	OpenCV (opencv-contrib-python) 
+•	NumPy 
+•	LBPH Face Recognition 
+•	Haar Cascade (Face Detection) 
+•	Telegram Bot API 
+•	CSV (Logging system) 
+________________________________________
+🧩 System Architecture
 
 Webcam Input
 
       ↓
+      
 Face Detection (Haar Cascade)
 
       ↓
-Face Recognition (LBPH Model)
+      
+Face Recognition (LBPH)
 
       ↓
+      
 Decision Making
 
    ├── Authorized → No Action
@@ -50,51 +49,32 @@ Decision Making
    
            ↓
            
-      Beep Alarm
-      
-      Capture Image
-      
-      Send Telegram Alert
-      
-      Save Log Entry
-      
-
+     Beep Alert
+     
+     Capture Image
+     
+     Send Telegram Alert
+     
+     Save Log (CSV)
+     
+________________________________________
 🔄 How It Works
-
-1. The webcam continuously captures live video
-2. Faces are detected using Haar Cascade
-3. The system compares the detected face with the trained dataset
-4. Based on confidence value, it decides whether the person is authorized
-
-If the person is not recognized:
-
-* A beep alert is triggered
-* The image is captured and saved
-* A Telegram message is sent with the imag
-* The event is recorded in a CSV file
-
-
+1.	Webcam captures live video 
+2.	Faces are detected using Haar Cascade 
+3.	Face is compared with trained dataset 
+4.	System checks confidence score 
+5.	If intruder detected: 
+o	Beep alert is triggered 
+o	Image is saved 
+o	Telegram alert is sent 
+o	Event is logged in CSV 
+________________________________________
 📂 Data Storage
-
-* Intruder images are saved in the `intruder_images/` folder
-* All events are recorded in `access_log.csv`
-* Alerts are generated using system sound
-
-
-📷 Output
-
-✅ Authorized User
-
-![Authorized User](authorized_image_1.png)
-
-📊 CSV Log Output
-![CSV Log](CSV.png)
-
-
-
+•	📷 Intruder images → intruder_images/ 
+•	📊 Logs → access_log.csv 
+________________________________________
 📁 Project Structure
-
-project_folder/
+intruder_system/
 
 │
 
@@ -114,46 +94,34 @@ project_folder/
 
 └── dataset/
 
-        └── SUBRAT/
-        
-
-
+    └── SUBRAT/
+    
+________________________________________
 🛠️ Installation
-
 pip install opencv-contrib-python numpy requests
-
-
-
+________________________________________
 ▶️ Run
 
 python intr.py
 
+Press 's' to stop the system.
 
-Press 's' to stop.
-
-
+________________________________________
 ⚠️ Important Note
-
-Update your Telegram credentials:
-
+Update your Telegram credentials before running:
 bot_token = "YOUR_BOT_TOKEN"
-
 chat_id = "YOUR_CHAT_ID"
-
-
+________________________________________
 🔮 Future Improvements
-
-* Multi-user support
-* Raspberry Pi deployment
-* Robot integration
-* GUI dashboard
-* Deep learning upgrade
-
+•	Multi-user face recognition 
+•	Raspberry Pi deployment 
+•	Robot integration 🤖 
+•	GUI dashboard 
+•	Deep learning-based model (YOLO / CNN) 
+________________________________________
 👨‍💻 Author
-
-   Subrat
-   
-
+Subrat
+________________________________________
 ⭐ About
-
 A real-time AI surveillance system for detecting and alerting intruders using computer vision.
+
