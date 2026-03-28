@@ -89,6 +89,7 @@ Face Recognition (LBPH)
 Decision Making
 
    ├── Authorized → No Action
+   
    └── Intruder →
    
            ↓
@@ -156,6 +157,7 @@ ________________________________________
 intruder_system/
 
 │
+
 ├── intr.py
 
 ├── trainer.yml
@@ -165,9 +167,11 @@ intruder_system/
 ├── access_log.csv
 
 │
+
 ├── intruder_images/
 
 │
+
 └── dataset/
 
     └── SUBRAT/
