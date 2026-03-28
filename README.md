@@ -21,7 +21,7 @@ A real-time surveillance system that detects human faces, identifies authorized 
 - Confidence filtering & cooldown mechanism
   
 
-👉 [View Project](https://github.com/subratks93-afk/intruder_detection)
+👉 [View Project](https://github.com/subratks93-afk/image-processing-projects)
 
 
 🧠 Technologies Used
