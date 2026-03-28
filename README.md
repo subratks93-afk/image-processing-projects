@@ -6,7 +6,7 @@ A collection of AI-based computer vision and image processing projects focused o
 
 🛡️ AI-Based Smart Intruder Detection System
 
-A real-time surveillance system that detects human faces, identifies authorized users, and sends alerts for intruders using OpenCV and face recognition.
+A real-time computer vision system that detects human faces, identifies authorized users, and generates alerts for intruders using OpenCV and face recognition.
 
 🔹 Features:
 
