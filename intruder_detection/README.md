@@ -124,7 +124,7 @@ ________________________________________
 
 > System correctly identifies an authorized user.
 
-![Authorized](authorized_image_1.png)
+![Authorized](authorized_image.png)
 
 🚨 Intruder Detection
 
