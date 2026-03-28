@@ -1,4 +1,4 @@
-[🧠 Image Processing Projects
+🧠 Image Processing Projects
 
 A collection of AI-based computer vision and image processing projects focused on real-time applications such as surveillance, detection, and automation.
 
