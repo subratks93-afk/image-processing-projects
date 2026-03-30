@@ -147,7 +147,7 @@ The system sends a real-time alert to the user via Telegram whenever an intruder
 🚨 Alert Example
 
 
-![Intruder Alert](intruder_alert.png)
+![Intruder Alert](intruder_alert.jpeg)
 
 ________________________________________
 
