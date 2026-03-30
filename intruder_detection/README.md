@@ -142,6 +142,13 @@ ________________________________________
 
 📩 Telegram Alert Output
 
+The system sends a real-time alert to the user via Telegram whenever an intruder is detected. The alert includes a warning message, timestamp, and the captured image.
+
+🚨 Alert Example
+
+
+![Intruder Alert](intruder_alert.png)
+
 ________________________________________
 
 📂 Data Storage
