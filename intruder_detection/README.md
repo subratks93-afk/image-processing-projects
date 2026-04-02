@@ -137,7 +137,7 @@ ________________________________________
 
 > All detection events are recorded with timestamp and status.
 
-![CSV Log](CSV.png)
+![CSV Log](CSV_log.png)
 
 
 📩 Telegram Alert Output
