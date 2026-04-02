@@ -1,7 +1,8 @@
-🧠 Image Processing & Robotics Projects
+🧠 Image Processing Projects
 
 
-A collection of AI-based computer vision and robotics projects focused on real-time applications such as detection, automation, and intelligent systems.
+A collection of computer vision projects focused on real-time applications such as detection, automation, and intelligent systems.
+
 
 
 
@@ -31,8 +32,8 @@ Developed a real-time computer vision system that detects human faces and distin
 
 
 
-🧠 Technologies Used
 
+🧠 Technologies Used
 
 - Python
   
@@ -41,16 +42,14 @@ Developed a real-time computer vision system that detects human faces and distin
 - NumPy
   
 - Machine Learning (LBPH)
-  
+   
 - Computer Vision
   
 
 
-
 📌 Purpose
 
-
-This repository showcases practical implementations of computer vision and robotics concepts in real-world scenarios like security systems and automation.
+This repository showcases practical implementations of computer vision concepts applied to real-world scenarios such as security systems and automation.
 
 
 
