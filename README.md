@@ -22,7 +22,7 @@ A real-time system that detects human faces, identifies authorized users, and se
   
 * Confidence filtering & cooldown mechanism
 
-👉 [View Project](https://github.com/subratks93-afk/computer-vision-projects/blob/main/intruder_detection/README.md))
+👉 [View Project](https://github.com/subratks93-afk/computer-vision-projects/blob/main/intruder_detection/README.md)
 
 ---
 
