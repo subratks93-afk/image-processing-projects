@@ -1,60 +1,70 @@
-🧠 Image Processing Projects
+# 🧠 Computer Vision Projects
 
+A collection of computer vision and image processing projects focused on real-time applications such as detection, automation, and intelligent systems.
 
-A collection of computer vision projects focused on real-time applications such as detection, automation, and intelligent systems.
+---
 
+## 🚀 Featured Projects
 
+### 🛡️ AI-Based Intruder Detection System
 
-
-🚀 Featured Project
-
-
-🛡️ AI-Based Smart Intruder Detection System
-
-
-Developed a real-time computer vision system that detects human faces and distinguishes between authorized users and intruders using OpenCV and LBPH face recognition.
-
+A real-time system that detects human faces, identifies authorized users, and sends alerts for intruders using OpenCV and LBPH face recognition.
 
 🔹 Features:
 
-- Real-time face detection & recognition
+* Real-time face detection & recognition
   
-- Intruder alert system (Telegram + Beep)
+* Intruder alert system (Telegram + Beep)
   
-- Image capture of intruders
+* Image capture of intruders
   
-- CSV-based logging system
+* CSV-based logging system
   
-- Confidence filtering & cooldown mechanism
+* Confidence filtering & cooldown mechanism
+
+👉 [View Project](intruder_detection_system/README.md)
+
+---
+
+### 🔥 Fire Detection & Protection (Raspberry Pi)
+
+An image processing-based system designed to detect fire in real time and trigger safety actions using a Raspberry Pi.
+
+🔹 Features:
+
+* Real-time fire detection using camera input
   
-
-👉 [View Project](intruder_detection/README.md)
-
-
-
-
-🧠 Technologies Used
-
-- Python
+* Image processing-based analysis
   
-- OpenCV
+* Alert mechanism for safety response
   
-- NumPy
+* Can be extended to automatic protection systems
+
+👉 [View Project](fire_detection_raspberry_pi/README.md)
+
+---
+
+## 🧠 Technologies Used
+
+* Python
   
-- Machine Learning (LBPH)
-   
-- Computer Vision
+* OpenCV
   
+* NumPy
+  
+* Machine Learning (LBPH)
+  
+* Computer Vision
 
+---
 
-📌 Purpose
+## 📌 Purpose
 
-This repository showcases practical implementations of computer vision concepts applied to real-world scenarios such as security systems and automation.
+This repository showcases practical implementations of computer vision concepts applied to real-world scenarios such as security systems, surveillance, and safety automation.
 
+---
 
+## 👨‍💻 Author
 
-👨‍💻 Author
-
-Subrat  
-
+Subrat
 AI & Robotics Enthusiast 🚀
