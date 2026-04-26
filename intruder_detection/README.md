@@ -1,4 +1,4 @@
-🛡️ AI-Based Smart Intruder Detection System
+🛡️ AI-Based Smart Intruder Detection & Alert System
 
 📌 Overview
 
